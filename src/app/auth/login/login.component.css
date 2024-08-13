@@ -1,10 +1,11 @@
-body {
-  color: #000;
-  overflow-x: hidden;
-  height: 100%;
-  background-image: linear-gradient(to right, #D500F9, #FFD54F);
-  background-repeat: no-repeat
+.back-container {
+  background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../../../../src/assets/img/bg-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
+
+
 
 input,
 textarea {
